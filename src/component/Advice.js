@@ -11,7 +11,7 @@ const advice=()=>{
         
         <center><Link  to="sub"><button type="button" className="bn">Start</button></Link></center>
         <div class="text-typing2">
-        <p>Created by Rajeev Ranjan . </p>
+        <p>Created by Rajeev Ranjan. </p>
         </div>
         </body>
         </>

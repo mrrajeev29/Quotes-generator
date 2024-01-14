@@ -11,6 +11,26 @@
   #i1 {
     margin:0px;
     white-space:nowrap;
+    text-align: center;
+    overflow:hidden;
+    animation:typing 4s steps(22,end) forwards,
+              blink 1s infinite;
+  }
+  .text-typing-mob {
+    display: none;
+    padding:20px 30px;
+    background:#f5f5f5;
+    font-size:1rem;
+    font-family:monospace;
+    border-radius:30px;
+    margin: 6rem auto;
+    overflow:auto;
+
+  }
+  .text-typing-mob p {
+    margin:0px;
+    text-align: center;
+    white-space:nowrap;
     overflow:hidden;
     animation:typing 4s steps(22,end) forwards,
               blink 1s infinite;
@@ -22,13 +42,12 @@
     font-family:monospace;
     border-radius:30px;
     margin: 6rem auto;
-    
   }
   .text-typing2 p {
     margin:0px;
+    text-align: center;
     white-space:nowrap;
     overflow:hidden;
-    text-align: center;
     animation:typing 4s steps(22,end) forwards,
               blink 1s infinite;
   }
@@ -62,4 +81,14 @@
     border: 0;
     color:brown;
     box-shadow: 5px 5px 5px 5px pink;
+}
+
+
+@media screen and (max-width:720px){
+    .text-typing-mob{
+        display: flex;
+    }
+    .text-typing{
+        display: none;
+    }
 }
